@@ -27,7 +27,7 @@ EOT;
 		$f3->mset(array(
 			"LOCALES" => "app/plugin/crowdin/dict-crowdin/",
 			"FALLBACK" => $this->locale,
-			"LANGAUGE" => $this->locale,
+			"LANGUAGE" => $this->locale,
 		));
 		$this->_addJs($this->jsCode);
 	}
